@@ -3,96 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistemas Computacionales de México</title>
+    <title>Sistemas Computacionales de México</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="imagenes/logo.png" alt="Logo de Sistemas Computacionales de México">
+            <img src="img/logo.png" alt="Logo de Sistemas Computacionales de México">
         </div>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="inicio">
-        <h1><font color="width">Sistemas</font>  <font color="#f5f5dc">Computacionáles </font> <font color="red">de México</font> </h1>
-        <p>Expertos en reparación y mantenimiento de computadoras, electrónicos y desarrollo web.</p>
+    <section id="inicio" class="hero">
+        <h1><font color="width">Sistemas</font>  <font color="#f5f5dc">Computacionales </font> <font color="red">de México</font> </h1>
+        <p>Expertos en reparación y mantenimiento de computadoras, electrónicos y desarrollo web.</p>
+        <a href="#servicios" class="btn-primary">Conoce nuestros servicios</a>
     </section>
 
-    <section id="servicios">
+    <section id="servicios" class="services">
         <h2>Nuestros Servicios</h2>
-        <ul>
-            <li>Mantenimiento preventivo y correctivo de equipos de computo.</li>
-            <li>Solucion de problemas a nivel Harware y Software.</li>
-            <li>Reparacion de aparatos electrónicos.</li>
-            <li>Desarrollo de páginas web</li>
-            <li>Venta de accesorios y componentes para equipos de computo</li>
-            <li>Instalacion de redes de cableado estructurado.</li>
-            <li>Solucion a problemas de red LAN, WIFI, Fibra optica</li>
-        </ul>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="img/foto_no_exif (4).jpg" alt="">
+                <h3>Mantenimiento de Equipos</h3>
+                <p>Mantenimiento preventivo y correctivo de equipos de cómputo.</p>
+                <p>Un mantenimiento a tus equipos de computo, evita dolores de caveza futuros, es recomendable dar mantenimiento por lo menos 1 vez cada 4 meses.</p>
+            </div>
+            <div class="service-card1">
+                <img src="img/foto_no_exif (13).jpg" alt="">
+                <h3>Reparación de Software</h3>
+                <p>Solución de problemas a nivel hardware y software.</p>
+                <P>Damos soluciones efectivas en software, tienes equipos lentos, equipos con problemas de conectividad, llamanos o contactanos</P>
+            </div>
+            <div class="service-card2">
+                <img src="img/foto_no_exif (12).jpg" alt="">
+                <h3>Reparación de Electrónicos</h3>
+                <p>Reparación de aparatos electrónicos.</p>
+                <p>Reparamos tus aparatos electronicos como, monitores, computadoras de escritorio, laptop, noobreak, switches, perofericos, etc.</p>
+            </div>
+            <div class="service-card3">
+                <img src="img/desarrollo-web-3.jpg" alt="">
+                <h3>Desarrollo Web</h3>
+                <p>Desarrollo de páginas web a medida de tu negocio.</p>
+                <p>Creamos tu pagina web para tu negocio, tenemos promociones.</p>
+                <p>Si requieres mas informacion contactanos o llena el formulario.</p>
+            </div>
+            <div class="service-card4">
+                <img src="img/foto_no_exif (5).jpg" alt="">
+                <h3>Venta de Accesorios</h3>
+                <p>Venta de accesorios y componentes para equipos de cómputo.</p>
+                <p>Tenemos Perifericos como, teclados, mopuses, switches, impresoras, y mucho mas.</p>
+            </div>
+            <div class="service-card5">
+                <img src="img/foto_no_exif (9).jpg" alt="">
+                <h3>Instalación de Redes</h3>
+                <p>Instalación de redes de cableado estructurado.</p>
+                <p>Diseñamos tu red local, publica etc.</p>
+            </div>
+            <div class="service-card6">
+                <img src="img/foto_no_exif (10).jpg" alt="">
+                <h3>Solución de Redes</h3>
+                <p>Solución a problemas de redes LAN, WIFI, Fibra óptica.</p>
+                <p>Tienes problemas de conectividad, problemas en side, router, switch, nosotros te solucionamos.</p>
+            </div>
+            <div class="service-card7">
+                <img src="img/hp705.jpg" alt="">
+                <h3>Venta de equipos de computo</h3>
+                <p>Tenemos venta de equipos de computo, de linea o armados, todos nuestros equipos estan garantizados, tenemos equipos nuevos y usados..</p>
+            </div>
+            <div class="service-card8">
+                <img src="img/images.jpg" alt="">
+                <h3>Reparacion de televiciones.</h3>
+                <p>Contamos con reparacion de televicsores, lcd, led, contamos con los tecnicos mejor especializados en este rubro.</p>
+            </div>
+        </div>
+    </section>
+    <section id="galeria" class="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-grid">
+            <div class="service-card">
+                <br><br>
+                <img src="img/foto_no_exif(17).jpg" alt="reparacion monitor">
+                <br><br><br>
+                <p>Reparacion de monitor de pilares, barranca del muerto.</p>
+            </div>
+            <div class="service-card1">
+                <img src="img/foto_no_exif (18).jpg" alt="reparacion tarjeta madre">
+                <p>Reperacion de tarjeta madre, pines de zocalo de procesador.</p>
+            </div>
+            <div class="service-card2">
+                <br><br>
+                <img src="img/foto_no_exif (4).jpg" alt="Foto 4">
+                <br><br><br>
+                <p>Limpieza a los equipos de pilares.</p>
+            </div>
+            <div class="service-card3">
+                <img src="img/foto_no_exif (5).jpg" alt="Foto 5">
+                <p>Cambio de periferico, en ahula de ciberescuela.</p>
+            </div>
+            <div class="service-card4">
+                <br><br>
+                <img src="img/foto_no_exif (7).jpg" alt="Foto 7">
+                <br><br><br>
+                <P>Instalacion de sistema operativo, pantallaso azul.</P>
+            </div>
+            <div class="service-card5">
+                <img src="img/foto_no_exif (9).jpg" alt="Foto 9">
+                <p>Acomodo de cabelado de red en site de un pilares de la CDMX.</p>
+            </div>
+            <div class="service-card6">
+                <img src="img/foto_no_exif (10).jpg" alt="Foto 10">
+                <p>Atendiendo insidencia de pilares sin interenet lan, cables trozados en site.</p>
+            </div>
+            <div class="service-card7">
+                <img src="img/foto_no_exif (15).jpg" alt="Foto 15">
+                <p>Atendiendo insidencia de 9 equipos sin prender en pilares de la CDMX.</p>
+            </div>
+            <div class="service-card8">
+                <img src="img/foto_no_exif (13).jpg" alt="Foto 13">
+                <p>Equipoos de pilares con contraceña de inicio de secion, quitando contraceñas.</p>
+            </div>
+            <div class="service-card">
+                <img src="img/foto_no_exif (19).jpg" alt="">
+                <p>Atendiendo insidencia en pilares de la CDMX, falla: bios no guardava la hora, cambio de pilas de vios.</p>
+            </div>
+            <div class="service-card">
+                <img src="img/foto_no_exif (20).jpg" alt="">
+                <p>Ampliacion de memoria ram, de 4GB a 8GB.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="galeria">
-        <h2>Galería</h2>
-        <hr>
-        <h3>MANTENIEMIENTO A EQUIPOS DE COMPUTO</h3>
-        <div class="gallery">
-            <img src="img/foto_no_exif (1).jpg" alt="Foto 2">
-            <img src="img/foto_no_exif (2).jpg" alt="Foto 3">
-            <img src="img/foto_no_exif (3).jpg" alt="Foto 4">
-            <img src="img/foto_no_exif (4).jpg" alt="Foto 5">
-        </div>
-        <hr>
-        <h3>CAMBIO DE PERIFERICOS</h4>
-        <div class="gallery">
-            <img src="img/foto_no_exif (5).jpg" alt="Foto 6">
-            <img src="img/foto_no_exif (6).jpg" alt="Foto 7">
-        </div>
-        <hr>
-        <h3>SOLUCIONES EN REDES LAN, WIFI, FIBRA OPTICA</h5>
-        <div class="gallery">
-            <img src="img/foto_no_exif (9).jpgp" alt="Foto 10">
-            <img src="img/foto_no_exif (10).jpg" alt="Foto 11">
-            <img src="img/foto_no_exif (11).jpg" alt="Foto 12">
-            <img src="img/foto_no_exif.jpg" alt="Foto 1">
-        </div>
-        <hr>
-        <H3>REPARACION DE EQUIPOS DE COMPUTO.</H6>
-        <div class="gallery">
-            <img src="img/foto_no_exif (14).jpg" alt="Foto 15">
-            <img src="img/foto_no_exif (15).jpg" alt="Foto 16">
-            <img src="img/foto_no_exif (16).jpg" alt="Foto 17">
-            <img src="img/foto_no_exif (8).jpg" alt="Foto 9">
-        </div>
-        <hr>
-        <H3>SOLUCION DE SOFTWARE.</H6>
-        <div class="gallery">
-            <img src="img/foto_no_exif (7).jpg" alt="Foto 8">
-            <img src="img/foto_no_exif (13).jpg" alt="Foto 14">
-        </div>
-        <hr>
-        <H3>REPARACION DE APARATOS ELECTRONICOS Y PERIFERICOS.</H6>
-        <div class="gallery">
-            <img src="img/foto_no_exif (12).jpg" alt="Foto 13">
-            <img src="imagenes/IMG_20241105_102025.jpg" alt="foto14">
-        </div>
-    </section>
-
-    <section id="ubicacion">
-        <h2>Ubicación</h2>
-        <p>Estamos ubicados en: C. de Melchor Ocampo 6, Xochimilco, Ciudad de Mexico</p>
-        <!-- <iframe src="https://www.google.com/maps/place/C.+de+Melchor+Ocampo+6,+Santiago+Tulyehualco,+Xochimilco,+16750+Ciudad+de+M%C3%A9xico,+CDMX/@19.2505557,-99.0119063,17z/data=!3m1!4b1!4m6!3m5!1s0x85ce1b558f15a37d:0x9bcd6ca5f0286a34!8m2!3d19.2505507!4d-99.0093314!16s%2Fg%2F11vlnqm4lq?hl=es&entry=ttu&g_ep=EgoyMDI1MDIyNS4wIKXMDSoASAFQAw%3D%3D" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+    <section id="ubicacion" class="location">
+        <h2>Ubicación</h2>
+        <p>Estamos ubicados en: C. de Melchor Ocampo 6, Xochimilco, Ciudad de México</p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.123456789012!2d-99.005722!3d19.257944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01d882f0f0a5%3A0x1234567890abcdef!2sMelchor%20Ocampo%206%2C%20Calyequita%2C%20Tulyehualco%2C%2016090%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1234567890!5m2!1ses!2smx"
-            width="600"
+            width="100%"
             height="450"
             style="border:0;"
             allowfullscreen=""
@@ -100,53 +155,33 @@
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </section>
-
-    <section id="contacto">
+    <section id="contacto" class="contact">
         <h2>Contacto</h2>
-        <p>Puedes contactarnos a través de WhatsApp o sigenos por nuestras redes sociales.</p>
-        <a href="https://wa.me/525561214304 " target="_blank">
-            <img src="redes/whatsapp-icon.png" alt="WhatsApp" width="100px">
-        </a>
-        <a href="https://www.facebook.com/share/197W7tU6FL/?mibextid=qi2Omg" target="_blank">
-            <img src="redes/facebook-icon.png" alt="WhatsApp" width="100px">
-        </a>
-        <a href="https://www.youtube.com/channel/UChVpMkBtCHj4t8xQF4R4CWQ" target="_blank">
-            <img src="redes/youtube-icon.png" alt="WhatsApp" width="100px">
-        </a>
-        <a href="https://www.tiktok.com/@sistemas.comput.mexico?lang=es" target="_blank">
-            <img src="redes/tiktok-icon.png" alt="WhatsApp" width="100px">
-        </a>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
-            <img src="redes/gmail-icon.png" alt="WhatsApp" width="100px">
-        </a>
-    </section>
-
-    <iframe 
+        <p>Puedes contactarnos a través de WhatsApp o síguenos en nuestras redes sociales.</p>
+        <div class="social-links">
+            <a href="https://wa.me/525561214304" target="_blank">
+                <img src="redes/whatsapp-icon.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.facebook.com/share/197W7tU6FL/?mibextid=qi2Omg" target="_blank">
+                <img src="redes/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://www.youtube.com/channel/UChVpMkBtCHj4t8xQF4R4CWQ" target="_blank">
+                <img src="redes/youtube-icon.png" alt="YouTube">
+            </a>
+            <a href="https://www.tiktok.com/@sistemas.comput.mexico?lang=es" target="_blank">
+                <img src="redes/tiktok-icon.png" alt="TikTok">
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+                <img src="redes/gmail-icon.png" alt="Gmail">
+            </a>
+        </div>
+        <hr>
+        <iframe 
         src="https://docs.google.com/forms/d/e/1FAIpQLSdnygcttE7f3i3-dgKPqLzddOyZ6xFq-Hn96tznLTdDjKNdwA/viewform?usp=header" frameborder="0">
     </iframe>
-
-    <!--<section id="contacto-form">
-        <h2>Formulario de Contacto</h2>
-        <form id="contact-form" action="submit_form.php" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-    
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-    
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-    
-            <button type="submit">Enviar</button>
-        </form>
-        <p id="form-message"></p>
-    </section>-->
-
+    </section>
     <footer>
-        <p>&copy; 2025 Sistemas Computacionales de México. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Sistemas Computacionales de México. Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
